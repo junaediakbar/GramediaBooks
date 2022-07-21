@@ -1,0 +1,236 @@
+{
+  "books": [
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76746/thumb_image_normal/BLK_MI2022639209.jpg",
+      "title": "Mustique Island",
+      "author": "Sarah McCoy",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/mustique-island",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/mustique-island",
+      "slug": "mustique-island"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76745/thumb_image_normal/BLK_TG2022616913.jpg",
+      "title": "The Godmothers",
+      "author": "Camille Aubray",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-godmothers",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-godmothers",
+      "slug": "the-godmothers"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76731/thumb_image_normal/BLK_TCATK2022174667.jpg",
+      "title": "The Cat And The King",
+      "author": "Louis Auchincloss",
+      "price": "Rp 249.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-cat-and-the-king",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-cat-and-the-king",
+      "slug": "the-cat-and-the-king"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76629/thumb_image_normal/BLK_R2022764231.jpg",
+      "title": "Revelations",
+      "author": "Mary Sharratt",
+      "price": "Rp 479.000",
+      "original_url": "https://ebooks.gramedia.com/books/revelations",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/revelations",
+      "slug": "revelations"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76612/thumb_image_normal/BLK_CA2022266516.jpg",
+      "title": "Cherokee America",
+      "author": "Margaret Verble",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/cherokee-america",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/cherokee-america",
+      "slug": "cherokee-america"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76569/thumb_image_normal/BLK_WTWHWO2022565474.jpg",
+      "title": "When The White House Was Ours",
+      "author": "Porter Shreve",
+      "price": "Rp 179.000",
+      "original_url": "https://ebooks.gramedia.com/books/when-the-white-house-was-ours",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/when-the-white-house-was-ours",
+      "slug": "when-the-white-house-was-ours"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76565/thumb_image_normal/BLK_FF2022230010.jpg",
+      "title": "Fiddle Fever",
+      "author": "Sharon Arms Doucet",
+      "price": "Rp 79.000",
+      "original_url": "https://ebooks.gramedia.com/books/fiddle-fever",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/fiddle-fever",
+      "slug": "fiddle-fever"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76557/thumb_image_normal/BLK_TUO2022294012.jpg",
+      "title": "The Ugly One",
+      "author": "Leanne Statland Ellis",
+      "price": "Rp 99.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-ugly-one",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-ugly-one",
+      "slug": "the-ugly-one"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76528/thumb_image_normal/BLK_NBN2022611801.jpg",
+      "title": "Norwegian By Night",
+      "author": "Derek B. Miller",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/norwegian-by-night",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/norwegian-by-night",
+      "slug": "norwegian-by-night"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76481/thumb_image_normal/BLK_WSR2022706684.jpg",
+      "title": "Will Sparrow's Road",
+      "author": "Karen Cushman",
+      "price": "Rp 109.000",
+      "original_url": "https://ebooks.gramedia.com/books/will-sparrow-s-road",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/will-sparrow-s-road",
+      "slug": "will-sparrow-s-road"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76470/thumb_image_normal/BLK_BL2022683780.jpg",
+      "title": "Beautiful Lies",
+      "author": "Clare Clark",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/beautiful-lies",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/beautiful-lies",
+      "slug": "beautiful-lies"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76402/thumb_image_normal/BLK_W2022284699.jpg",
+      "title": "Watchfires",
+      "author": "Louis Auchincloss",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/watchfires",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/watchfires",
+      "slug": "watchfires"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76399/thumb_image_normal/BLK_TOOBO2022737585.jpg",
+      "title": "The Odyssey Of Ben O'neal",
+      "author": "Theodore Taylor",
+      "price": "Rp 179.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-odyssey-of-ben-o-neal",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-odyssey-of-ben-o-neal",
+      "slug": "the-odyssey-of-ben-o-neal"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76363/thumb_image_normal/BLK_HIV202244703.jpg",
+      "title": "Her Infinite Variety",
+      "author": "Louis Auchincloss",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/her-infinite-variety",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/her-infinite-variety",
+      "slug": "her-infinite-variety"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76352/thumb_image_normal/BLK_TLC2022316172.jpg",
+      "title": "The Ludwig Conspiracy",
+      "author": "Oliver Pötzsch",
+      "price": "Rp 179.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-ludwig-conspiracy",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-ludwig-conspiracy",
+      "slug": "the-ludwig-conspiracy"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76348/thumb_image_normal/BLK_TTAT2022358949.jpg",
+      "title": "The Thing About Thugs",
+      "author": "Tabish Khair",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-thing-about-thugs",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-thing-about-thugs",
+      "slug": "the-thing-about-thugs"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76344/thumb_image_normal/BLK_K2022653607.jpg",
+      "title": "Kaltenburg",
+      "author": "Marcel Beyer",
+      "price": "Rp 299.000",
+      "original_url": "https://ebooks.gramedia.com/books/kaltenburg",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/kaltenburg",
+      "slug": "kaltenburg"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76313/thumb_image_normal/BLK_STH202215156.jpg",
+      "title": "Something To Hold",
+      "author": "Katherine Schlick Noe",
+      "price": "Rp 209.000",
+      "original_url": "https://ebooks.gramedia.com/books/something-to-hold",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/something-to-hold",
+      "slug": "something-to-hold"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76299/thumb_image_normal/BLK_TUPOER202225638.jpg",
+      "title": "The Unruly Passions Of Eugénie R.",
+      "author": "Carole DeSanti",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-unruly-passions-of-eugenie-r",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-unruly-passions-of-eugenie-r",
+      "slug": "the-unruly-passions-of-eugenie-r"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76275/thumb_image_normal/BLK_LFM2022475124.jpg",
+      "title": "Looking For Me",
+      "author": "Betsy R. Rosenthal",
+      "price": "Rp 99.000",
+      "original_url": "https://ebooks.gramedia.com/books/looking-for-me",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/looking-for-me",
+      "slug": "looking-for-me"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76260/thumb_image_normal/BLK_BTW2022866487.jpg",
+      "title": "Bridle The Wind",
+      "author": "Joan Aiken",
+      "price": "Rp 79.000",
+      "original_url": "https://ebooks.gramedia.com/books/bridle-the-wind",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/bridle-the-wind",
+      "slug": "bridle-the-wind"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76248/thumb_image_normal/BLK_TPC2022799667.jpg",
+      "title": "The Prague Cemetery",
+      "author": "Umberto Eco",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-prague-cemetery",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-prague-cemetery",
+      "slug": "the-prague-cemetery"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76239/thumb_image_normal/BLK_TNOTR2022750478.jpg",
+      "title": "The Name Of The Rose",
+      "author": "Umberto Eco",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/the-name-of-the-rose",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/the-name-of-the-rose",
+      "slug": "the-name-of-the-rose"
+    },
+    {
+      "image": "https://ebooks.gramedia.com/ebook-covers/76201/thumb_image_normal/BLK_JR(2022661521.jpg",
+      "title": "Jacob's Room (annotated)",
+      "author": "Virginia Woolf",
+      "price": "Rp 159.000",
+      "original_url": "https://ebooks.gramedia.com/books/jacob-s-room-annotated",
+      "url": "http://laravel-books-db.herokuapp.com/api/books/jacob-s-room-annotated",
+      "slug": "jacob-s-room-annotated"
+    }
+  ],
+  "links": {
+    "first": "http://laravel-books-db.herokuapp.com/api/books?category=historical-fiction&language=en&page=1",
+    "last": null,
+    "prev": null,
+    "next": "http://laravel-books-db.herokuapp.com/api/books?category=historical-fiction&language=en&page=2"
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "path": "http://laravel-books-db.herokuapp.com/api/books?category=historical-fiction&language=en",
+    "per_page": 24,
+    "to": 24
+  },
+  "status": 200,
+  "type": "http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html",
+  "title": "OK"
+}
