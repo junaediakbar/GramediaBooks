@@ -1,0 +1,171 @@
+{
+  "categories": [
+    {
+      "slug": "adult-fiction",
+      "name": "Adult Fiction"
+    },
+    {
+      "slug": "art-music-photography",
+      "name": "Art, Music & Photography"
+    },
+    {
+      "slug": "biographies-memoirs",
+      "name": "Biographies & Memoirs"
+    },
+    {
+      "slug": "buddhism-hinduism",
+      "name": "Buddhism & Hinduism"
+    },
+    {
+      "slug": "business-investing",
+      "name": "Business & Investing"
+    },
+    {
+      "slug": "children-age-0-3",
+      "name": "Children Age 0-3"
+    },
+    {
+      "slug": "children-age-4-7",
+      "name": "Children Age 4-7"
+    },
+    {
+      "slug": "children-age-8-12",
+      "name": "Children Age 8-12"
+    },
+    {
+      "slug": "christianity",
+      "name": "Christianity"
+    },
+    {
+      "slug": "classics",
+      "name": "Classics"
+    },
+    {
+      "slug": "comics-graphic-novels",
+      "name": "Comics & Graphic Novels"
+    },
+    {
+      "slug": "computers-technology",
+      "name": "Computers & Technology"
+    },
+    {
+      "slug": "education-test-preparation",
+      "name": "Education & Test Preparation"
+    },
+    {
+      "slug": "fiction-literature",
+      "name": "Fiction & Literature"
+    },
+    {
+      "slug": "food-drink-cookbook",
+      "name": "Food, Drink & Cookbook"
+    },
+    {
+      "slug": "health-fitness-wellness",
+      "name": "Health, Fitness & Wellness"
+    },
+    {
+      "slug": "historical-fiction",
+      "name": "Historical Fiction"
+    },
+    {
+      "slug": "history",
+      "name": "History"
+    },
+    {
+      "slug": "home-architecture",
+      "name": "Home & Architecture"
+    },
+    {
+      "slug": "horror-paranormal",
+      "name": "Horror & Paranormal"
+    },
+    {
+      "slug": "humor-comedy",
+      "name": "Humor & Comedy"
+    },
+    {
+      "slug": "islam",
+      "name": "Islam"
+    },
+    {
+      "slug": "law-tax",
+      "name": "Law & Tax"
+    },
+    {
+      "slug": "manga-manhua-manhwa",
+      "name": "Manga, Manhua & Manhwa"
+    },
+    {
+      "slug": "motivation-self-help",
+      "name": "Motivation & Self-Help"
+    },
+    {
+      "slug": "mystery-thriller-suspense",
+      "name": "Mystery, Thriller & Suspense"
+    },
+    {
+      "slug": "non-fiction",
+      "name": "Non-fiction"
+    },
+    {
+      "slug": "parenting-relationships",
+      "name": "Parenting & Relationships"
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy"
+    },
+    {
+      "slug": "poem-short-story",
+      "name": "Poem & Short Story"
+    },
+    {
+      "slug": "politics-affairs-social-sciences",
+      "name": "Politics, Affairs & Social Sciences"
+    },
+    {
+      "slug": "professional-engineering-technical",
+      "name": "Professional, Engineering & Technical"
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology"
+    },
+    {
+      "slug": "reference-dictionary",
+      "name": "Reference & Dictionary"
+    },
+    {
+      "slug": "religion-spirituality",
+      "name": "Religion & Spirituality"
+    },
+    {
+      "slug": "romance",
+      "name": "Romance"
+    },
+    {
+      "slug": "science-fiction-fantasy",
+      "name": "Science Fiction & Fantasy"
+    },
+    {
+      "slug": "science-nature",
+      "name": "Science & Nature"
+    },
+    {
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    {
+      "slug": "teen-young-adult-fiction",
+      "name": "Teen & Young Adult Fiction"
+    },
+    {
+      "slug": "travel",
+      "name": "Travel"
+    }
+  ],
+  "status": 200,
+  "type": "http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html",
+  "title": "OK"
+}

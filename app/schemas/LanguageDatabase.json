@@ -1,0 +1,77 @@
+{
+  "languages": [
+    {
+      "slug": "zh",
+      "name": "Chinese",
+      "value": 3
+    },
+    {
+      "slug": "en",
+      "name": "English",
+      "value": 1
+    },
+    {
+      "slug": "de",
+      "name": "German",
+      "value": 15
+    },
+    {
+      "slug": "hi",
+      "name": "Hindi",
+      "value": 8
+    },
+    {
+      "slug": "ml",
+      "name": "Malayalam",
+      "value": 7
+    },
+    {
+      "slug": "ta",
+      "name": "Tamil",
+      "value": 5
+    },
+    {
+      "slug": "te",
+      "name": "Telugu",
+      "value": 6
+    },
+    {
+      "slug": "id",
+      "name": "Indonesian",
+      "value": 2
+    },
+    {
+      "slug": "ja",
+      "name": "Japanese",
+      "value": 14
+    },
+    {
+      "slug": "ko",
+      "name": "Korean",
+      "value": 16
+    },
+    {
+      "slug": "ms",
+      "name": "Malay",
+      "value": 9
+    },
+    {
+      "slug": "pt",
+      "name": "Portuguese",
+      "value": 10
+    },
+    {
+      "slug": "es",
+      "name": "Spanish",
+      "value": 17
+    },
+    {
+      "slug": "th",
+      "name": "Thai",
+      "value": 12
+    }
+  ],
+  "status": 200,
+  "type": "http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html",
+  "title": "OK"
+}
