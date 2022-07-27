@@ -19,6 +19,10 @@ class LocalDataSource private constructor(private val bookDao: BookDao) {
 
     fun getFavoriteBook(): LiveData<List<BookEntity>> = bookDao.getFavoriteBook()
 
+    fun getBookById(slug: String): LiveData<BookEntity> = bookDao.getBookById(slug)
+
+    fun updateBook(book: BookEntity) = bookDao.updateBook(book)
+
     fun insertTourism(tourismList: List<BookEntity>) = bookDao.insertBook(tourismList)
 
     fun setFavoriteBook(tourism: BookEntity, newState: Boolean) {

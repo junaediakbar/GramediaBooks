@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">ModernLogin</string>
+    <string name="app_name">Gramedia Books</string>
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
     <string name="hello_blank_fragment">Hello from fragment</string>
     <string name="no_data">Empty data</string>
     <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="book_title">Book Title</string>
 </resources>

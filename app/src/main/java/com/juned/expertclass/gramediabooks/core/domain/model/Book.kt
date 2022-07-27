@@ -12,5 +12,6 @@ data class Book(
     val price: String,
     val title: String,
     val url: String,
+    var description: String,
     val isFavorite : Boolean
 ) : Parcelable

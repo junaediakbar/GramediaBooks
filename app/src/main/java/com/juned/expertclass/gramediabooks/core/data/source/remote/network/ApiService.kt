@@ -1,8 +1,10 @@
 package com.juned.expertclass.gramediabooks.core.data.source.remote.network
 
+import com.juned.expertclass.gramediabooks.core.data.source.remote.response.DetailBookResponse
 import com.juned.expertclass.gramediabooks.core.data.source.remote.response.ListBookResponse
 import com.juned.expertclass.gramediabooks.core.data.source.remote.response.LoginResponse
 import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.*
 
 interface ApiService {
@@ -18,4 +20,10 @@ interface ApiService {
     @Headers("Authorization: Bearer 78|5eWgxm0PYM0wlDSctWJPAxdhRQy06tMBxIE0qh0g","Accept: application/json")
     @GET("books")
     fun getList(): Call<ListBookResponse>
+
+    @Headers("Authorization: Bearer 78|5eWgxm0PYM0wlDSctWJPAxdhRQy06tMBxIE0qh0g","Accept: application/json")
+    @GET("books/{slug}/detail")
+    fun getDetailBook(
+        @Path("slug") slug: String,
+    ): Call<DetailBookResponse>
 }

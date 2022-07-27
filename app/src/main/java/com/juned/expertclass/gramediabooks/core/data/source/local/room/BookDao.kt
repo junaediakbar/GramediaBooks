@@ -17,6 +17,12 @@ interface BookDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertBook(tourism: List<BookEntity>)
 
+    @Query("SELECT * FROM book Where slug = :slug")
+    fun getBookById(slug: String): LiveData<BookEntity>
+
     @Update
     fun updateFavoriteBook(tourism: BookEntity)
+
+    @Update
+    fun updateBook(book: BookEntity)
 }

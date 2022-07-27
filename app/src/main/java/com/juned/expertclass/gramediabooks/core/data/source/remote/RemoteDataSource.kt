@@ -5,13 +5,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.juned.expertclass.gramediabooks.core.data.source.remote.network.ApiResponse
 import com.juned.expertclass.gramediabooks.core.data.source.remote.network.ApiService
+import com.juned.expertclass.gramediabooks.core.data.source.remote.response.BookDetail
 import com.juned.expertclass.gramediabooks.core.data.source.remote.response.BookResponse
+import com.juned.expertclass.gramediabooks.core.data.source.remote.response.DetailBookResponse
 import com.juned.expertclass.gramediabooks.core.data.source.remote.response.ListBookResponse
-import com.juned.expertclass.gramediabooks.core.data.source.remote.response.LoginResponse
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.flowOn
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -49,5 +46,30 @@ class RemoteDataSource (private val apiService: ApiService){
 
         return resultData
     }
+
+    fun getDetailBook(slug: String): LiveData<ApiResponse<BookDetail>> {
+        val resultData = MutableLiveData<ApiResponse<BookDetail>>()
+
+        //get data from API
+        val client = apiService.getDetailBook(slug)
+
+        client.enqueue(object : Callback<DetailBookResponse> {
+            override fun onResponse(
+                call: Call<DetailBookResponse>,
+                response: Response<DetailBookResponse>
+            ) {
+                val data= response.body()?.book
+                resultData.value = if (data != null) ApiResponse.Success(data) else ApiResponse.Empty
+            }
+            override fun onFailure(call: Call<DetailBookResponse>, t: Throwable) {
+                resultData.value = ApiResponse.Error(t.message.toString())
+                Log.e("RemoteDataSource", t.message.toString())
+            }
+        })
+
+        return resultData
+    }
+
+
 
 }

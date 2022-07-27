@@ -16,7 +16,6 @@ object ApiConfig {
             .build()
     }
 
-
     fun provideApiService(): ApiService {
         val retrofit = Retrofit.Builder()
             .baseUrl("https://laravel-books-db.herokuapp.com/api/")

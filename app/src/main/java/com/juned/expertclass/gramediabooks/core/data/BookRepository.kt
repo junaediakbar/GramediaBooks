@@ -5,6 +5,7 @@ import androidx.lifecycle.Transformations
 import com.juned.expertclass.gramediabooks.core.data.source.local.LocalDataSource
 import com.juned.expertclass.gramediabooks.core.data.source.remote.RemoteDataSource
 import com.juned.expertclass.gramediabooks.core.data.source.remote.network.ApiResponse
+import com.juned.expertclass.gramediabooks.core.data.source.remote.response.BookDetail
 import com.juned.expertclass.gramediabooks.core.data.source.remote.response.BookResponse
 import com.juned.expertclass.gramediabooks.core.domain.model.Book
 import com.juned.expertclass.gramediabooks.core.domain.repository.IBookRepository
@@ -50,6 +51,29 @@ class BookRepository private constructor(
                 localDataSource.insertTourism(tourismList)
             }
         }.asLiveData()
+
+    override fun getDetailBook(slug: String): LiveData<Resource<Book>> =
+        object : NetworkBoundResource<Book, BookDetail>(appExecutors) {
+            override fun loadFromDB(): LiveData<Book> {
+                return Transformations.map(localDataSource.getBookById(slug)) {
+                    DataMapper.mapSingleEntitiesToDomain(it)
+                }
+            }
+
+            override fun shouldFetch(data: Book?): Boolean =
+                data == null || data.description==""
+
+            override fun createCall(): LiveData<ApiResponse<BookDetail>> =
+                remoteDataSource.getDetailBook(slug)
+
+            override fun saveCallResult(data: BookDetail) {
+                appExecutors.diskIO().execute { localDataSource.updateBook(
+                    DataMapper.mapDetailResponsesToEntities(data)
+                ) }
+            }
+        }.asLiveData()
+
+
 
     override fun getFavoriteBook(): LiveData<List<Book>> {
         return Transformations.map(localDataSource.getFavoriteBook()){

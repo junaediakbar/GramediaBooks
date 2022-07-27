@@ -33,8 +33,8 @@ data class BookEntity(
     @ColumnInfo(name = "url")
     var url: String,
 
-    @ColumnInfo(name = "url")
-    var url: String,
+    @ColumnInfo(name = "description")
+    var description: String = "",
 
     @ColumnInfo(name = "isFavorite")
     var isFavorite: Boolean = false
